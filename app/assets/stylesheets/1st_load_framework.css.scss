@@ -1,7 +1,6 @@
 // import the CSS framework
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 // make all images responsive by default
 img {
   @extend .img-responsive;
@@ -10,8 +9,9 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+  overflow: visible;
+  padding-top: 0;
   }
-
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral

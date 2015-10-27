@@ -1,0 +1,12 @@
+"pt-BR":
+  activerecord:
+    models:
+      user: Usuários
+    attributes:
+      user:
+        name: "Nome"
+        email: "E-mail"
+        password: "Senha"
+        password_confirmation: "Confirmação senha"
+        current_password: "Senha Atual"
+        We'll send password reset instructions.: "Nós enviaremos instruções de redefinição de senha."
